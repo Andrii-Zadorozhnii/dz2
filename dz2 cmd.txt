@@ -1,0 +1,128 @@
+Last login: Mon Jan  2 20:01:48 on ttys000
+andriizadorozhnii@MacBook-Pro-Andrii ~ % ls
+Applications	Downloads	Music		README.md
+Desktop		Library		Pictures	tmp
+Documents	Movies		Public
+andriizadorozhnii@MacBook-Pro-Andrii ~ % cd Documents 
+andriizadorozhnii@MacBook-Pro-Andrii Documents % ls
+CH OFF FILES
+DOCTYPE html.docx
+GitHub
+HTML4.docx
+Linda Oldendorff - HC sprocket wheels inspection.pdf
+Playgrounds
+SWIFT
+Swift_Projects
+ViberDownloads
+Zoom
+ballast pump rate M.V. MARTHA 04.11.17.xls
+iLovePDF_Output
+ДОВІРЕНІСТЬ.docx
+Псевдоним GitHub
+загрузки
+расход авто.xlsx
+andriizadorozhnii@MacBook-Pro-Andrii Documents % cd GitHub 
+andriizadorozhnii@MacBook-Pro-Andrii GitHub % ls
+Andrii-Zadorozhnii
+andriizadorozhnii@MacBook-Pro-Andrii GitHub % cd Andrii-Zadorozhnii 
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % ls
+Andrii Zadorozhnii_First Home Work.zip	Seymour_One.zip
+Andrii-Zadorozhnii			dz1
+First Home Work				testRepo
+Roboto.zip				vessel.JPG
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % git clone https://github.com/Andrii-Zadorozhnii/dz2.git
+Клонирование в «dz2»...
+warning: Похоже, что вы клонировали пустой репозиторий.
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % ls
+Andrii Zadorozhnii_First Home Work.zip	dz1
+Andrii-Zadorozhnii			dz2
+First Home Work				testRepo
+Roboto.zip				vessel.JPG
+Seymour_One.zip
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cd dz 2
+cd: string not in pwd: dz
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cd dz2
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % mkdir image
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % mkdir fonts
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % mkdir pages
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % mkdir css
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % mkdir js
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % ls
+css	fonts	image	js	pages
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % touch index.html
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % cd js
+andriizadorozhnii@MacBook-Pro-Andrii js % touch script.js
+andriizadorozhnii@MacBook-Pro-Andrii js % cd ../
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % ls
+css		fonts		image		index.html	js		pages
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % cd css
+andriizadorozhnii@MacBook-Pro-Andrii css % touch style.css
+andriizadorozhnii@MacBook-Pro-Andrii css % cd ../
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % ls    
+css		fonts		image		index.html	js		pages
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % cd ../
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % ls
+Andrii Zadorozhnii_First Home Work.zip	Roboto.zip				dz2
+Andrii-Zadorozhnii			Seymour_One.zip				testRepo
+First Home Work				dz1					vessel.JPG
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cp vessel.JPG dz2/image
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % ls
+Andrii Zadorozhnii_First Home Work.zip	Roboto.zip				dz2
+Andrii-Zadorozhnii			Seymour_One.zip				testRepo
+First Home Work				dz1					vessel.JPG
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cp -v Roboto.zip dz2/fonts
+Roboto.zip -> dz2/fonts/Roboto.zip
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cp -v Seymour_One.zip dz2/fonts
+Seymour_One.zip -> dz2/fonts/Seymour_One.zip
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cd dz2
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % cd fonts
+andriizadorozhnii@MacBook-Pro-Andrii fonts % ls
+Roboto.zip	Seymour_One.zip
+andriizadorozhnii@MacBook-Pro-Andrii fonts % cd ../
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % cd ../
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % ls
+Andrii Zadorozhnii_First Home Work.zip	Roboto.zip				dz2
+Andrii-Zadorozhnii			Seymour_One.zip				testRepo
+First Home Work				dz1					vessel.JPG
+andriizadorozhnii@MacBook-Pro-Andrii Andrii-Zadorozhnii % cd dz2
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % ls
+css		fonts		image		index.html	js		pages
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % dit add .
+zsh: command not found: dit
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % git add .
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % git commit -m"dz2"
+[main (корневой коммит) 7b1814e] dz2
+ 6 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 css/style.css
+ create mode 100644 fonts/Roboto.zip
+ create mode 100644 fonts/Seymour_One.zip
+ create mode 100644 image/vessel.JPG
+ create mode 100644 index.html
+ create mode 100644 js/script.js
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % git push origin main
+Перечисление объектов: 10, готово.
+Подсчет объектов: 100% (10/10), готово.
+При сжатии изменений используется до 8 потоков
+Сжатие объектов: 100% (6/6), готово.
+Запись объектов: 100% (10/10), 4.69 МиБ | 5.62 МиБ/с, готово.
+Всего 10 (изменений 0), повторно использовано 0 (изменений 0), повторно использовано пакетов 0
+To https://github.com/Andrii-Zadorozhnii/dz2.git
+ * [new branch]      main -> main
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % history
+  218  cp -v Seymour_One.zip dz2/fonts
+  219  cd dz2
+  220  cd fonts
+  221  ls
+  222  cd ../
+  223  cd ../
+  224  ls
+  225  dz2
+  226  git add .
+  227  ls
+  228  cd dz2
+  229  ls
+  230  dit add .
+  231  git add .
+  232  git commit -m"dz2"
+  233  git push origin main
+andriizadorozhnii@MacBook-Pro-Andrii dz2 % 
