@@ -1,4 +1,4 @@
-# Home Work #2 (BeetRoot Academy)
+# Home Work #2 (Beetroot Academy)
 
 Required:
 
